@@ -6,7 +6,7 @@ It also includes a chatbot for follow‑up questions, with all sessions stored s
 
 
 
-## 🌟 Features
+## Features
 - Upload blood test reports in PDF format
 - Extract text automatically using **PDFPlumber**
 - Analyze reports with AI models (Groq / OpenAI)
@@ -16,7 +16,7 @@ It also includes a chatbot for follow‑up questions, with all sessions stored s
 
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Frontend/UI**: Streamlit
 - **Database**: Supabase (PostgreSQL)
 - **AI Models**: Groq / OpenAI GPT
@@ -29,7 +29,7 @@ It also includes a chatbot for follow‑up questions, with all sessions stored s
 
 
 
-## 🚀 Installation
+## Installation
 
 ### Requirements
 - Python 3.8+
@@ -75,3 +75,37 @@ Insights + session details are saved in Supabase.
 Use the Chatbot to ask follow‑up questions about the report.
 
 Chat history is stored in chat_sessions and chat_messages.
+
+
+## Screenshots
+
+### 1. Users Table
+![Users Table](docs/Supabase.png)
+
+### 2. Login Page
+![Login Page](docs/dashboard.png)
+
+### 3. Supabase Connection
+![Supabase Connection](docs/UploadReport.png)
+
+### 4. Extracted Report Text
+![Extracted Report Text](docs/ReportText.png)
+
+### 5. Hematology Report
+![Hematology Report](docs/ReportReading.png)
+
+### 6. AI Health Insights
+![AI Health Insights](docs/ReportAnalysis.png)
+
+### 7. Analysis Results
+![Analysis Results](docs/Analysis2.png)
+
+### 8. Blood Chemistry Report
+![Blood Chemistry Report](docs/Analysis3.png)
+
+### 9. Chatbot Q&A
+![Chatbot Q&A](docs/ChatBotQuerry.png)
+
+### 10. Supabase Database Tables
+![Supabase Database Tables](docs/ChatSessionsSaved.png)
+
